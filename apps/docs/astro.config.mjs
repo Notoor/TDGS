@@ -16,10 +16,10 @@ export default defineConfig({
         replacesTitle: false,
       },
       social: {
-        github: 'https://github.com/tchad-gov/tdgs',
+        github: 'https://github.com/Notoor/TDGS',
       },
       editLink: {
-        baseUrl: 'https://github.com/tchad-gov/tdgs/edit/main/apps/docs/',
+        baseUrl: 'https://github.com/Notoor/TDGS/edit/main/apps/docs/',
       },
       customCss: ['./src/styles/custom.css'],
       sidebar: [
