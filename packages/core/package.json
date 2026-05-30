@@ -22,7 +22,7 @@
     "validate:exports": "node scripts/validate-exports.mjs",
     "validate:tokens": "node scripts/validate-tokens.mjs",
     "validate": "pnpm validate:tokens && pnpm build && pnpm validate:exports",
-    "prepare": "pnpm build"
+    "prepare": "node scripts/build.mjs"
   },
   "exports": {
     ".": {
